@@ -37,7 +37,7 @@ public class daoClasse implements daoInterface {
             //Faz query sql
             stmt = conn.createStatement();
             String sql;
-            sql = "SELECT usuario, senha FROM app.tabela where upper(usuario) = '" + usuario.toUpperCase() + "' and senha='" + senha + "'";
+            sql = "SELECT usuario, senha FROM tabela where upper(usuario) = '" + usuario.toUpperCase() + "' and senha='" + senha + "'";
             ResultSet rs = stmt.executeQuery(sql);
             //Extrai os dados dos resultados
             if (rs.next()) {
@@ -104,7 +104,7 @@ public class daoClasse implements daoInterface {
             //Faz query sql
             stmt = conn.createStatement();
             String sql;
-            sql = "SELECT usuario FROM app.tabela order by usuario asc";
+            sql = "SELECT usuario FROM tabela order by usuario asc";
             ResultSet rs = stmt.executeQuery(sql);
             ArrayList <classeUsuario> users = new ArrayList<>();
             //Extrai os dados dos resultados
