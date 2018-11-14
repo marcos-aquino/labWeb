@@ -29,12 +29,12 @@
             <h1>Lab. Web</h1>
              
             <div class="form-group form-control-sm">
-                <label>Usuário:</label><br>
+                <label>Nome de usuário: </label>
                 <input class="form-control" type="text" name="usuario" placeholder="Digite o nome do usuário" /><br>
             </div>
              
             <div class="form-group form-control-sm">
-                <label>Senha:</label><br>
+                <label>Senha: </label>
                 <input class="form-control" type="password" name="senha" placeholder="Digite a senha: " /><br>
             </div>
             
