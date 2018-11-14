@@ -9,7 +9,7 @@
         <%@ page session = "false" %>
         
         <div class="container">
-        <div class="container bg-3 text-center col-lg-4 col-lg-offset-4">
+        <div class="bg-3 text-center col-lg-4 col-lg-offset-4">
             
          <% // inicia scriptlet                                                                                     
          
