@@ -1,6 +1,6 @@
 <%@ include file="cabecalho.jsp"%>
 
-        <title>Laboratório de programação de sistemas web</title>
+        <title>Lab.Web</title>
         
     </head>
     
