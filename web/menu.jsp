@@ -13,18 +13,18 @@
     <body>
         <div>
            <div class="container-fluid bg-1 text-center">
-            <p>Bem vindo</p>
+            <p>Login efetuado com sucesso!</p>
             <p>Usuários logados: <%= listener.getNumeroUsuarios() %></p>
             
             <form action="Controller" method="post">
-                <button class="btn btn-default" type="submit" name="codigo_op" value="1"> Listar usuários </button>
+                <button class="btn btn-default" type="submit" name="codigo_op" value="1">Usuarios Cadastrados</button>
             </form><br><br>
             
             <form action="Controller" method="post">
-                <button class="btn btn-default" type="submit" name="codigo_op" value="0"> Sair </button>
+                <button class="btn btn-default" type="submit" name="codigo_op" value="0">Logout</button>
             </form><br>
             
-            <p class = "anuncio">Anuncio:</p>
+            <p class = "anuncio">Oferecimento:</p>
             
             <center>
             <p><a href = "<jsp:getProperty name = "anuncios" property = "link" />" target="_blank">
