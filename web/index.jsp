@@ -8,8 +8,8 @@
     
         <%@ page session = "false" %>
         
-        <div>
-        <div class="container bg-3 text-center">
+        <div class="container">
+        <div class="container bg-3 text-center col-lg-4 col-lg-offset-4">
             
          <% // inicia scriptlet                                                                                     
          
@@ -26,7 +26,7 @@
          
          <form action="Controller" method="post"><br>
              
-            <marquee><h1>Laboratório de Programação de Sistemas Web</h1></marquee>
+            <h1>Lab. Web</h1>
              
             <div class="form-group form-control-sm">
                 <label>Usuário:</label><br>
